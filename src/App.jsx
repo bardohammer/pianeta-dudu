@@ -6,7 +6,7 @@ import Contatti from "./components/Contatti.jsx";
 import ChiSiamo from "./components/ChiSiamo.jsx";
 import PianetaDudu from "./components/PianetaDudu.jsx";
 import Home from "./components/Home.jsx";
-import "/src/scss/main.scss";
+import "/src/scss/Main.scss";
 import ScrollToTop from "./components/ScrollToTop.jsx";
 const App = () => {
   return (
