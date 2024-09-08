@@ -1,0 +1,191 @@
+@import '../variables';
+@import '../main';
+
+.card {
+  width: 450px;
+  height: 330px;
+  gap: 10px;
+  @include flex-row;
+  flex-direction: column;
+  background-color: #FFDAC6;
+  border-radius: 16px;
+  margin-bottom: 60px;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.4s ease-out;
+
+  &__img {
+    position: absolute;
+    top: 240px;
+    width: 15%;
+  }
+
+  &__title {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #41521F;
+  }
+
+  &__p {
+    padding: 10px 25px 25px 25px;
+    width: 300px;
+    text-align: center;
+  }
+
+  &__button {
+    border: none;
+    padding: 12px 16px;
+    font-weight: bold;
+    border-radius: 16px;
+    font-size: 14px;
+    background-color: #fff1e6;
+    color: #41521F;
+    cursor: pointer;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.4s;
+  }
+
+  &__button:hover,
+  &__button:active {
+    background-color: #90B28A;
+    color: #fff1e6;
+  }
+}
+
+.card__ludoteca:hover,
+.card__ludoteca:active {
+  background-color: #CCD5AE;
+  cursor: pointer;
+}
+
+.card__infanzia:hover,
+.card__infanzia:active {
+  background-color: #CCD5AE;
+  cursor: pointer;
+}
+
+/* Media Queries */
+
+/* Breakpoint per 1024px */
+@media (max-width: 1024px) {
+  .card {
+    width: 400px;
+    height: 300px;
+
+    &__title {
+      font-size: 24px;
+    }
+
+    &__p {
+      width: 280px;
+    }
+
+    &__img {
+      width: 12%;
+      top: 220px;
+    }
+  }
+}
+
+/* Breakpoint per 768px */
+@media (max-width: 768px) {
+  .card {
+    width: 255px;
+    height: 330px;
+
+    &__title {
+      font-size: 22px;
+    }
+
+    &__p {
+      width: 260px;
+    }
+
+    &__img {
+      width: 10%;
+      top: 200px;
+    }
+
+    &__button {
+      font-size: 13px;
+      padding: 10px 14px;
+    }
+  }
+}
+
+/* Breakpoint per 600px */
+@media (max-width: 600px) {
+  .card {
+    width: 280px;
+    height: 330px;
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__p {
+      width: 240px;
+    }
+
+    &__img {
+      width: 8%;
+      top: 180px;
+    }
+
+    &__button {
+      font-size: 12px;
+      padding: 8px 12px;
+    }
+  }
+}
+
+/* Breakpoint per 480px */
+@media (max-width: 480px) {
+  .card {
+    width: 280px;
+    height: 330px;
+
+    &__title {
+      font-size: 18px;
+    }
+
+    &__p {
+      width: 220px;
+    }
+
+    &__img {
+      width: 7%;
+      top: 160px;
+    }
+
+    &__button {
+      font-size: 11px;
+      padding: 7px 10px;
+    }
+  }
+}
+
+/* Breakpoint per 360px */
+@media (max-width: 360px) {
+  .card {
+    width: 280px;
+    height: 330px;
+
+    &__title {
+      font-size: 16px;
+    }
+
+    &__p {
+      width: 200px;
+    }
+
+    &__img {
+      width: 6%;
+      top: 140px;
+    }
+
+    &__button {
+      font-size: 10px;
+      padding: 6px 8px;
+    }
+  }
+}

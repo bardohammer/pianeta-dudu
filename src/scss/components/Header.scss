@@ -1,0 +1,205 @@
+@import '../variables';
+@import '../main';
+
+.header {
+  @include flex-row;
+  width: 100%;
+  height: 135px;
+  background-color: #FFDAC6;
+  border-bottom: 3px solid #41521F;
+
+  &__logo-img {
+    height: clamp(80px, 15vw, 170px); // Ridimensionamento fluido tra 80px e 170px
+    width: auto;
+  }
+
+  &__nav {
+    @include flex-row;
+    width: 80%;
+    height: 130px;
+    display: flex;
+  }
+
+  &__hamburger {
+    display: none;
+  }
+
+  &__menu {
+    @include flex-row;
+    margin-left: auto;
+    margin-right: 100px;
+    width: 80%;
+    gap: 15px;
+    align-items: center;
+    height: 130px;
+    list-style: none;
+    padding: 0;
+  }
+
+  &__menu-item {
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center;
+
+    &:hover {
+      color: #90B28A;
+      transform: scale(1.03);
+    }
+  }
+
+  &__menu-link {
+    font-family: "Green Yellow", sans-serif;
+    width: 100%;
+    text-decoration: none;
+    color: #41521F;
+    font-weight: 800;
+    font-size: 22px;
+    white-space: nowrap; // Impedisce il capo automatico
+    padding: 10px 15px;
+    transition: color 0.3s;
+
+    // Ridimensionamento con media queries a step più piccoli
+
+    @media (max-width: 1200px) {
+      font-size: 20px;
+    }
+
+    @media (max-width: 1024px) {
+      font-size: 16px;
+    }
+
+    @media (max-width: 1000px) {
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      font-size: 12px;
+    }
+
+    @media (max-width: 600px) {
+      font-size: 10px;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 10px;
+    }
+
+    &:hover {
+      color: #90B28A;
+    }
+
+    &--active {
+      color: #90B28A;
+      outline: none;
+    }
+  }
+
+  // MEDIA QUERIES
+  // Tablet - Schermi medi (larghezza <= 768px)
+  @media (max-width: 800px) {
+    border-bottom: 2px solid #41521F;
+
+    height: 110px;
+
+    &__logo-img {
+      height: 120px;
+    }
+
+    &__nav {
+      height: 110px;
+      width: 90%;
+    }
+
+    &__menu {
+      width: 100%;
+      margin-right: 50px;
+      gap: 10px;
+    }
+
+    &__menu-link {
+      font-size: 12px;
+    }
+  }
+
+  // Mobile - Schermi piccoli (larghezza <= 480px)
+  @media (max-width: 480px) {
+    height: 90px; // Altezza ancora più ridotta per mobile
+
+
+    button,
+    a,
+    div {
+      -webkit-tap-highlight-color: transparent; // Rimuove il riquadro di evidenziazione
+    }
+
+    body::-webkit-scrollbar {
+      display: none;
+    }
+
+
+    .header__overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(255, 218, 198, 0.9);
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transform: translateY(-100%);
+      transition: opacity 1.5s ease-in-out, transform 1.5s ease-in-out;  /* Rallenta la transizione */
+      pointer-events: none;
+    }
+
+    .header__overlay.show {
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: auto; // Cliccabile quando visibile
+    }
+
+    .header__overlay.exit {
+      opacity: 0;
+      transform: translateY(-100%);
+      pointer-events: none; // Non cliccabile durante l'uscita
+    }
+    &__logo {
+      z-index: 2;
+    }
+
+    &__logo-img {
+      height: 100px; // Altezza ridotta per il logo su mobile
+      z-index: 2;
+    }
+
+    &__nav {
+      height: 90px; // Ridurre l'altezza della nav su mobile
+      justify-content: space-between; // Distribuire gli elementi
+    }
+
+    &__menu {
+      @include flex-column; // Disporre gli elementi in colonna su mobile
+      width: 100%; // Larghezza piena su mobile
+      gap: 25px; // Ridurre ulteriormente lo spazio tra gli elementi
+    }
+
+    &__hamburger {
+      display: block;
+      z-index: 2;
+    }
+
+    &__hamburger--icon {
+      color: #41521F;
+      z-index: 2;
+    }
+
+    &__menu-link {
+      font-size: 24px; // Ridurre ulteriormente la dimensione del testo
+      padding: 8px 10px; // Ridurre il padding
+    }
+
+  }
+
+}

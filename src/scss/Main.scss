@@ -1,0 +1,70 @@
+
+@import './variables';
+
+@mixin flex-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@font-face {
+  font-family: 'Green Yellow';
+  src: url('../assets/fonts/Green Yellow.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Champagne';
+  src: url('../assets/fonts/Champagne & Limousines.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Champagne bold';
+  src: url('../assets/fonts/Champagne & Limousines Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navlink {
+  text-decoration: none;
+}
+
+p {
+  font-family: "Champagne", sans-serif;
+  font-size: 18px;
+}
+
+h1, h2, h3 {
+  font-family: 'Green Yellow', sans-serif;
+
+}
+
+button  {
+  font-family: "Champagne bold", sans-serif;
+}
+
+strong  {
+  font-family: "Champagne bold", sans-serif;
+}
+
+
+#root {
+  height: 100vh;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}

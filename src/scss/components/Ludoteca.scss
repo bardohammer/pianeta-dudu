@@ -1,0 +1,687 @@
+@import '../variables';
+@import '../main';
+
+.ludoteca {
+  @include flex-column;
+  justify-content: flex-start;
+  width: 100%;
+  height: 1600px;
+  background-color: #f4c1ab;
+
+  &__section1 {
+    @include flex-row;
+    width: 100%;
+
+    &__container-img {
+      margin-right: 100px;
+    }
+
+    &__img {
+      width: 400px;
+    }
+
+    &__container-text {
+      @include flex-column;
+      margin-left: 30px;
+      align-items: flex-start;
+      height: 700px;
+      width: 600px;
+    }
+
+    &__title {
+      font-family: "Green Yellow", sans-serif;
+      padding: 12px;
+      font-size: 40px;
+      background-color: #fff1e6;
+      width: 450px;
+      color: #f4c1ab;
+      margin-bottom: 20px;
+      border-radius: 20px;
+    }
+
+    &__subtitle-green {
+      font-family: "Green Yellow", sans-serif;
+      font-size: 52px;
+      color: #fff1e6;
+    }
+
+    &__subtitle-serif {
+      color: #41521F;
+      font-family: "Champagne", sans-serif;
+      font-size: 52px;
+      line-height: 1;
+    }
+
+    &__p {
+      margin-top: 20px;
+      width: 420px;
+      margin-bottom: 20px;
+
+    }
+
+    &__button {
+      padding: 12px 20px;
+      font-size: 18px;
+      border-radius: 16px;
+      background-color: #FFDAC6;
+      color: #41521F;
+      border: none;
+      transition: background-color 0.3s ease-in-out;
+
+      &:hover,
+      &:active {
+        cursor: pointer;
+        color: #f4c1ab;
+        background-color: #fff1e6;
+
+      }
+    }
+
+  }
+
+  &__section2 {
+    @include flex-column;
+    gap: 18px;
+    justify-content: flex-start;
+    padding: 6px 0 65px 0;
+    background-color: #fff1e6;
+    width: 100%;
+
+    &__title {
+      margin-top: 30px;
+      font-size: 48px;
+      color: #f4c1ab;
+    }
+
+    &__row {
+      @include flex-row;
+      padding-top: 15px;
+      align-items: flex-start;
+      gap: 100px;
+      margin-top: 30px;
+      width: 100%;
+    }
+
+    &__img {
+      width: 180px;
+    }
+
+    &__div {
+      @include flex-column;
+      gap: 14px;
+      width: 380px;
+      align-items: flex-start;
+
+      &__subtitle {
+        color: #f4c1ab;
+        font-size: 24px;
+        text-align: left;
+      }
+      &__subp {
+        text-align: left;
+      }
+
+    }
+
+    &__div2 {
+      @include flex-column;
+      gap: 14px;
+      width: 380px;
+      align-items: flex-end;
+
+      &__subtitle {
+        color: #f4c1ab;
+        font-size: 24px;
+        text-align: right;
+      }
+
+      &__subp {
+        text-align: right;
+      }
+    }
+  }
+
+  &__section3 {
+    @include flex-column;
+    gap: 10px;
+    padding: 30px 30px 60px 30px;
+    background-color: #f4c1ab;
+    width: 100%;
+
+    &__title {
+      color: #fff1e6;
+      margin-bottom: 26px;
+      font-size: 52px;
+    }
+
+    &__subtitle-green {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-family: "Green Yellow", sans-serif;
+      font-size: 25px;
+      color: #fff1e6;
+    }
+
+    &__subtitle-serif {
+      font-family: "Champagne", sans-serif;
+      font-size: 32px;
+      color: black;
+      line-height: 1;
+    }
+
+    &__row {
+      @include flex-row;
+      justify-content: space-around;
+      width: 100%;
+    }
+
+    &__circle {
+      @include flex-column;
+      justify-content: flex-start;
+      padding: 65px 12px;
+      gap: 20px;
+      border: solid 3px #fff1e6;
+      width: 300px;
+      height: 300px;
+      background-color: #CCD5AE;
+      border-radius: 50%;
+    }
+
+    &__circle--double {
+      @include flex-column;
+      justify-content: flex-start;
+      padding: 50px 12px;
+      gap: 18px;
+      border: solid 3px #fff1e6;
+      width: 300px;
+      height: 300px;
+      background-color: #CCD5AE;
+      border-radius: 50%;
+    }
+
+    &__subtitle {
+      color: #fff1e6;
+      font-size: 22px;
+      text-align: center;
+    }
+
+    &__subp {
+      width: 140px;
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+
+}
+
+// Media query for max-width: 1024px
+@media screen and (max-width: 1024px) {
+  .ludoteca {
+    height: auto;
+
+    &__section1 {
+      &__img {
+        width: 220px; // Diminuendo la larghezza dell'immagine
+      }
+
+      &__container-text {
+        width: 500px; // Riducendo il contenitore di testo
+      }
+
+      &__title {
+        font-size: 36px;
+        width: 400px; // Riduzione titolo
+      }
+
+      &__subtitle-green,
+      &__subtitle-serif {
+        font-size: 48px; // Riduzione dei sottotitoli
+      }
+
+      &__p {
+        width: 380px;
+      }
+    }
+
+    &__section2 {
+      padding: 0 30px;
+      &__title {
+        font-size: 44px; // Ridurre titolo sezione 2
+      }
+
+
+
+      &__img {
+        width: 140px; // Ridurre le immagini
+      }
+
+      &__row {
+        gap: 80px; // Diminuire il gap tra gli elementi
+      }
+
+      &__div,
+      &__div2 {
+        width: 320px; // Ridurre la larghezza dei div
+      }
+    }
+
+    &__section3 {
+      &__title {
+        font-size: 48px;
+      }
+
+      &__row {
+        gap: 10px;
+      }
+
+      &__circle,
+      &__circle--double {
+        @include flex-column;
+        justify-content: flex-start;
+        padding: 40px 12px;
+        width: 190px;
+        height: 190px; // Ridurre i cerchi
+      }
+
+      &__subtitle {
+        color: #fff1e6;
+        font-size: 13px;
+        text-align: center;
+      }
+
+      &__subp {
+        width: 140px;
+        text-align: center;
+        font-size: 11px;
+      }
+    }
+  }
+}
+
+// Media query for max-width: 768px
+@media screen and (max-width: 768px) {
+  .ludoteca {
+    &__section1 {
+      @include flex-column; // Da layout a colonna sotto 768px
+      width: 500px;
+
+
+      &__img {
+        width: 180px; // Ridurre ulteriormente la dimensione dell'immagine
+      }
+
+      &__container-text {
+        width: 100%; // Prendere tutta la larghezza disponibile
+        margin-left: 0;
+      }
+
+      &__container-img {
+        padding-bottom: 30px;
+        align-self: flex-end;
+      }
+
+      &__title {
+        font-size: 32px;
+        width: 100%;
+      }
+
+      &__subtitle-green,
+      &__subtitle-serif {
+        font-size: 44px; // Ridurre i sottotitoli
+      }
+
+      &__p {
+        width: 100%; // Riempire l'intero spazio disponibile
+      }
+    }
+
+    &__section2 {
+      padding-bottom: 30px;
+
+      &__row {
+        @include flex-column; // Da layout a colonna
+        padding: 0 30px;
+        gap: 40px; // Mantenere uno spazio tra i div
+      }
+
+      &__img {
+        width: 120px; // Ridurre le immagini ulteriormente
+      }
+
+      &__subtitle {
+        font-size: 22px; // Ridurre il font dei sottotitoli
+      }
+    }
+
+    &__section3 {
+      &__row {
+        @include flex-column;
+        gap: 10px;
+      }
+
+      &__subtitle-green {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 22px;
+      }
+
+      &__subtitle-serif {
+        font-size: 32px;
+      }
+
+      &__circle,
+      &__circle--double {
+        width: 200px;
+        height: 200px;
+      }
+      &__subtitle {
+        color: #fff1e6;
+        font-size: 16px;
+        text-align: center;
+      }
+
+      &__subp {
+        width: 140px;
+        text-align: center;
+        font-size: 12px;
+      }
+
+
+      &__title {
+        font-size: 44px;
+      }
+    }
+  }
+}
+
+// Media query for max-width: 600px
+@media screen and (max-width: 600px) {
+  .ludoteca {
+    overflow-x: hidden;
+    &__section1 {
+      padding-left: 45px;
+
+      &__img {
+        width: 140px; // Ridurre ancora la dimensione dell'immagine
+      }
+
+      &__container-img {
+        align-self: flex-end;
+        padding-bottom: 30px;
+      }
+
+
+      &__title {
+        font-size: 28px;
+        width: 400px;
+      }
+
+      &__subtitle-green,
+      &__subtitle-serif {
+        font-size: 38px;
+      }
+
+      &__p {
+        width: 400px;
+      }
+    }
+
+    &__section2 {
+      padding-bottom: 30px;
+
+      &__row {
+        @include flex-column; // Da layout a colonna
+        padding: 0 30px;
+        gap: 40px; // Mantenere uno spazio tra i div
+      }
+
+      &__img {
+        width: 100px; // Immagini più piccole
+      }
+
+      &__title {
+        font-size: 38px; // Ridurre il titolo della sezione
+      }
+
+      &__div,
+      &__div2 {
+        width: 100%; // Massimizzare la larghezza disponibile
+      }
+    }
+
+    &__section3 {
+      &__row {
+        @include flex-column;
+      }
+
+      &__subtitle-green {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 20px;
+      }
+
+      &__subtitle-serif {
+        font-size: 28px;
+      }
+
+      &__circle,
+      &__circle--double {
+        @include flex-column;
+        justify-content: flex-start;
+        padding: 50px 12px;
+        width: 180px;
+        height: 180px; // Ridurre i cerchi
+      }
+
+      &__subtitle {
+        color: #fff1e6;
+        font-size: 13px;
+        text-align: center;
+      }
+
+      &__subp {
+        width: 140px;
+        text-align: center;
+        font-size: 11px;
+      }
+
+      &__title {
+        font-size: 40px;
+      }
+    }
+  }
+}
+
+// Media query for max-width: 480px
+@media screen and (max-width: 480px) {
+  .ludoteca {
+    overflow-x: hidden;
+
+    &__section1 {
+      padding-left: 72px;
+
+      &__img {
+        width: 130px; // Immagini più piccole
+      }
+
+      &__title {
+        font-size: 26px; // Ridurre il titolo
+        width: 300px;
+      }
+
+      &__container-img {
+        align-self: flex-end;
+        padding-bottom: 30px;
+      }
+
+
+      &__subtitle-green,
+      &__subtitle-serif {
+        font-size: 32px; // Sottotitoli più piccoli
+      }
+
+      &__p {
+        width: 250px;
+      }
+    }
+
+    &__section2 {
+
+      &__row {
+        @include flex-column; // Da layout a colonna
+        padding: 0 20px;
+        gap: 40px; // Mantenere uno spazio tra i div
+      }
+
+      &__img {
+        width: 80px; // Ridurre ancora le immagini
+      }
+
+      &__title {
+        font-size: 32px; // Titolo più piccolo
+      }
+
+      &__div {
+        &__subtitle {
+          font-size: 18px;
+
+        }
+
+        &__subp {
+          font-size: 16px;
+
+        }
+      }
+
+      &__div2 {
+
+        &__subtitle {
+          font-size: 18px;
+
+        }
+
+        &__subp {
+          font-size: 16px;
+
+        }
+      }
+    }
+
+    &__section3 {
+      &__row {
+        @include flex-column;
+      }
+
+      &__subtitle-green {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 14px;
+      }
+
+      &__subtitle-serif {
+        font-size: 18px;
+      }
+
+      &__circle,
+      &__circle--double {
+        @include flex-column;
+        justify-content: flex-start;
+        padding: 45px 12px;
+        width: 180px;
+        height: 180px; // Ridurre i cerchi
+      }
+
+      &__subtitle {
+        color: #fff1e6;
+        font-size: 13px;
+        text-align: center;
+      }
+
+      &__subp {
+        width: 140px;
+        text-align: center;
+        font-size: 11px;
+      }
+
+      &__title {
+        font-size: 36px;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 360px) {
+  .ludoteca {
+    overflow-x: hidden;
+    &__section1 {
+      padding-left: 90px; // Ulteriore riduzione del padding
+
+      &__img {
+        width: 100px; // Immagini ancora più piccole
+      }
+
+      &__title {
+        font-size: 22px; // Ridurre ulteriormente il titolo
+        width: 260px; // Riduzione larghezza titolo
+      }
+
+      &__container-img {
+        align-self: flex-end;
+        padding: 20px;
+      }
+
+      &__subtitle-green,
+      &__subtitle-serif {
+        font-size: 28px; // Ridurre i sottotitoli
+      }
+
+      &__p {
+        width: 220px; // Testo ancora più compatto
+      }
+    }
+
+    &__section2 {
+      &__img {
+        width: 70px; // Immagini più piccole
+      }
+
+      &__title {
+        font-size: 28px; // Titolo leggermente più piccolo
+      }
+
+      &__div,
+      &__div2 {
+        width: 100%; // Continuare a riempire la larghezza
+      }
+    }
+
+    &__section3 {
+      &__circle,
+      &__circle--double {
+        @include flex-column;
+        justify-content: flex-start;
+        padding: 45px 12px;
+        width: 170px;
+        height: 170px; // Ridurre i cerchi
+      }
+
+      &__subtitle {
+        color: #fff1e6;
+        font-size: 12px;
+        text-align: center;
+      }
+
+      &__subp {
+        width: 140px;
+        text-align: center;
+        font-size: 10px;
+      }
+
+      &__subp {
+        font-size: 9px; // Font ancora più piccolo per il testo contenuto
+        width: 90px;
+      }
+    }
+  }
+}

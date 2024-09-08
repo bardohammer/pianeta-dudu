@@ -1,0 +1,160 @@
+@import '../variables';
+@import '../main';
+
+.footer {
+  width: 100%;
+  background-color: #c9907c;
+  @include flex-row;
+  flex-direction: column;
+
+  &__info--container {
+    @include flex-row;
+    align-items: flex-start;
+    gap: 70px;
+    margin-top: 30px;
+    flex-wrap: wrap; // Mantieni il flex-wrap per desktop
+  }
+
+  &__info {
+    @include flex-column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  &__info--title {
+    color: #fff1e6;
+    width: 150px;
+    margin-bottom: 10px;
+  }
+
+  &__info--p {
+    padding-left: 2px;
+    font-weight: 500;
+    color: #fff1e6;
+    transition: color 0.1s ease-in-out;
+  }
+
+  &__info--p:hover,
+  &__info--p:active {
+    cursor: pointer;
+    color: #f4c1ab;
+  }
+
+  &__info--icon {
+    padding-right: 4px;
+  }
+
+  &__info--row {
+    @include flex-row;
+    gap: 15px;
+  }
+
+  &__icon {
+    color: #fff1e6;
+    transition: color 0.1s ease-in-out;
+  }
+
+  &__icon:hover,
+  &__icon:active {
+    cursor: pointer;
+    color: #f4c1ab;
+  }
+
+  &__copyright {
+    padding: 5px 0;
+    width: 100%;
+    margin-top: 15px;
+    background-color: #d4a696;
+    @include flex-row;
+  }
+
+  &__copyright--p {
+    color: #fff1e6;
+    text-align: right;
+    font-weight: 300;
+  }
+
+  // Media query per dispositivi mobili
+  @media (max-width: 768px) {
+    height: auto;
+    padding: 20px 0;
+
+    &__info--container {
+      display: grid; // Usa CSS Grid per la parte mobile
+      grid-template-columns: repeat(2, 1fr); // 2 colonne di uguale larghezza
+      gap: 20px; // Distanza tra i blocchi
+      justify-items: center; // Centra i blocchi
+      align-items: start; // Allinea gli elementi all'inizio verticalmente
+      margin-top: 20px;
+    }
+
+    &__info {
+      width: 100%; // I blocchi occupano il 100% dello spazio disponibile
+    }
+
+    &__info--title {
+      font-size: 20px;
+      text-align: center;
+      width: auto; // Rimuovi la larghezza fissa
+    }
+
+    &__info--p {
+      font-size: 16px; // Riduci la dimensione del testo
+    }
+
+    &__info--row {
+      justify-content: center; // Centra le icone
+      gap: 10px; // Riduci lo spazio tra le icone
+    }
+
+    &__info--icons {
+      flex-direction: column; // Mostra le icone in una riga su schermi più piccoli
+      justify-content: center;
+    }
+
+    &__copyright {
+      justify-content: center; // Centra il contenuto
+    }
+
+    &__copyright--p {
+      font-size: 14px; // Riduci il font
+      text-align: center; // Centra il testo
+    }
+  }
+
+  @media (max-width: 480px) {
+    padding: 15px 0;
+
+    &__info--container {
+      grid-template-columns: 1fr; // Una sola colonna per schermi molto piccoli
+      gap: 20px;
+    }
+
+    &__info--title {
+      font-size: 18px;
+    }
+
+    &__info--p {
+      font-size: 14px;
+    }
+
+    &__info--icons {
+      flex-direction: column; // Mostra le icone in una riga su schermi più piccoli
+      justify-content: center;
+    }
+
+
+    &__info--row {
+      gap: 8px; // Riduci ulteriormente lo spazio tra le icone
+    }
+
+    &__copyright {
+      height: auto;
+      padding: 10px 0;
+    }
+
+    &__copyright--p {
+      font-size: 12px;
+    }
+  }
+}
