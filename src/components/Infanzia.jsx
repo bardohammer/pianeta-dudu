@@ -38,7 +38,7 @@ const Infanzia = () => {
 
         <div className="infanzia__section2__row">
           <div className="infanzia__section2__circle">
-            <h3 className="infanzia__section2__subtitle">ATTENZIONE</h3>
+            <h3 className="infanzia__section2__subtitle">Attenzione</h3>
             <p className="infanzia__section2__subp">
               Abbiamo scelto di lavorare con un numero ristretto di bambini per offrire una maggiore attenzione e, con
               ciò, supportare al meglio le esigenze di ogni bambino.
@@ -55,10 +55,9 @@ const Infanzia = () => {
             </p>
           </div>
           <div className="infanzia__section2__circle">
-            <h3 className="infanzia__section2__subtitle">FUNZIONI CELEBRALI</h3>
+            <h3 className="infanzia__section2__subtitle">Funzioni Cerebrali</h3>
             <p className="infanzia__section2__subp">
-
-              L’obiettivo è quello di supportare adeguatamente le funzioni celebrali specifiche per ogni età con
+              L’obiettivo è quello di supportare adeguatamente le funzioni cerebrali specifiche per ogni età con
               strumenti semplici ed efficaci come la routine, il gioco e le attività ludico ricreative
             </p>
           </div>
@@ -68,7 +67,7 @@ const Infanzia = () => {
         <div className="infanzia__section3__container-text">
           <h2 className="infanzia__section3__subtitle-green"><span
             className="quote-green__servizi">&quot;</span>Il
-            cibo <span className="infanzia__section3__subtitle-green--edit">èò</span> una vera scoperta,</h2>
+            cibo <span className="infanzia__section3__subtitle-green--edit">è</span> una vera scoperta,</h2>
           <h2 className="infanzia__section3__subtitle-serif">e se è vero che siamo quello</h2>
           <h2 className="infanzia__section3__subtitle-green">che mangiamo,</h2>
           <h2 className="infanzia__section3__subtitle-serif">è importante </h2>
