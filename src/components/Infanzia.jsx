@@ -18,7 +18,7 @@ const Infanzia = () => {
             processo</h2>
           <h2 className="infanzia__section1__subtitle-serif">di crescita</h2>
           <h2 className="infanzia__section1__subtitle-green">del bambino</h2>
-          <h2 className="infanzia__section1__subtitle-serif">e per noi </h2>
+          <h2 className="infanzia__section1__subtitle-serif">è per noi </h2>
           <h2 className="infanzia__section1__subtitle-serif">al centro di tutto.<span
             className="quote-green__servizi">&quot;</span></h2>
           <p className="infanzia__section1__p">Pianeta dudù è un luogo attentamente progettato per favorire
