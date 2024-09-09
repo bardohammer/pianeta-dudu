@@ -68,12 +68,12 @@ const Infanzia = () => {
           <h2 className="infanzia__section3__subtitle-green">che mangiamo,</h2>
           <h2 className="infanzia__section3__subtitle-serif">è importante </h2>
           <h2 className="infanzia__section3__subtitle-serif">mangiare solo cose genuine</h2>
-          <p className="infanzia__section3__p">Pianeta dudù e' un luogo attentamente progettato per favorire
-            lo sviluppo delle autonomie del bambino.
-            Grazie ai numerosi approfondimenti, la metodologia applicata è
-            sicuramente unica ed innovativa.
-            Il nostro servizio è pensato per un piccolo gruppo di bambini
-            di età compresa tra i 3 e i 36 mesi.
+          <p className="infanzia__section3__p">L’alimentazione proposta da Pianeta Dudù è attentamente supervisionata da un’esperta
+            nutrizionista infantile, la dott.ssa Arianna Mazzoni.
+            È stato individuato per i nostri bambini un piano alimentare sano e variegato, questo va
+            dallo svezzamento ad un’alimentazione più globale e completa.
+            L’obiettivo è quello di gustare sapori diversi ogni giorno e di introdurre pian piano gli
+            alimenti indispensabili alla crescita del bambino.
           </p>
         </div>
         <div className="infanzia__section3__container-img">

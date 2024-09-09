@@ -15,12 +15,11 @@ const Ludoteca = () => {
           <h2 className="ludoteca__section1__subtitle-serif">l'atmosfera del gioco</h2>
           <h2 className="ludoteca__section1__subtitle-green">semplicemente </h2>
           <h2 className="ludoteca__section1__subtitle-green">magica</h2>
-          <p className="ludoteca__section1__p">Pianeta dudù è un luogo attentamente progettato per favorire
-            lo sviluppo delle autonomie del bambino.
-            Grazie ai numerosi approfondimenti, la metodologia applicata è
-            sicuramente unica ed innovativa.
-            Il nostro servizio è pensato per un piccolo gruppo di bambini
-            di età compresa tra i 3 e i 36 mesi.
+          <p className="ludoteca__section1__p">Pianeta dudù ha anche il servizio ludoteca, uno spazio a misura di bambino ideato per
+            facilitare la socializzazione e il gioco tra i piccoli ospiti.
+            I laboratori pomeridiani della nostra ludoteca sono attentamente divisi in base alla fascia
+            d’età, questo per garantire ai bambini di vivere momenti di gioco ed esperienze uniche in
+            compagnia dei loro coetanei.
           </p>
           <NavLink className="navlink" to="/contatti">
           <button className="ludoteca__section1__button">Contattaci</button>
