@@ -6,14 +6,17 @@ const ChiSiamo = () => {
     <section className="chi-siamo">
       <h1 className="chi-siamo__title">Chi siamo</h1>
       <section className="chi-siamo__section1">
-        <h2 className="chi-siamo__section1__subtitle-green">e' soltanto giocando che</h2>
+        <h2 className="chi-siamo__section1__subtitle-green"><span
+          className="quote-green">&quot;</span>e'
+          soltanto giocando che</h2>
         <h2 className="chi-siamo__section1__subtitle-serif">il bambino esprime il suo vero sè,</h2>
         <h2 className="chi-siamo__section1__subtitle-green">noi adulti siamo privilegiati</h2>
-        <h2 className="chi-siamo__section1__subtitle-serif">nel vedere la crescita della sua fantasia.</h2>
+        <h2 className="chi-siamo__section1__subtitle-serif">nel vedere la crescita della sua fantasia.<span
+          className="quote-green">&quot;</span></h2>
       </section>
 
       <section className="chi-siamo__section2">
-        <p className="chi-siamo__section2__p">
+      <p className="chi-siamo__section2__p">
           <strong>Pianeta Dudù</strong> è un progetto che nasce dall'incontro del cuore di <strong>Benedetta</strong> e
           quello di <strong>Linda</strong>.<br/><br/>
           Un'educatrice ed una psicoterapeuta, due attente osservatrici che, con grande spirito di squadra, hanno dato

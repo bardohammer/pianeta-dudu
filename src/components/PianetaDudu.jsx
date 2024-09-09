@@ -7,14 +7,16 @@ const PianetaDudu = () => {
     <section className="pianeta">
       <h1 className="pianeta__title">Pianeta dudu'</h1>
       <section className="pianeta__section1">
-        <h2 className="pianeta__section1__subtitle-green">Ogni bambino</h2>
+        <h2 className="pianeta__section1__subtitle-green"><span
+          className="quote-pink">&quot;</span>Ogni bambino</h2>
         <h2 className="pianeta__section1__subtitle-serif">è per noi unico e speciale... La sua famiglia?</h2>
         <h2 className="pianeta__section1__subtitle-green">L'alleata perfetta</h2>
-        <h2 className="pianeta__section1__subtitle-serif">per prenderci cura di lui</h2>
+        <h2 className="pianeta__section1__subtitle-serif">per prenderci cura di lui.<span
+          className="quote-pink">&quot;</span></h2>
       </section>
 
       <section className="pianeta__section2">
-        <p className="pianeta__section2__p">
+      <p className="pianeta__section2__p">
           <strong>Pianeta Dudù</strong> è un luogo attentamente progettato per accogliere i bambini nelle attività
           ludiche offrendo quindi un servizio <strong>infanzia 0-3 anni</strong> e una <strong>ludoteca
           pomeridiana</strong>.<br/><br/>

@@ -13,11 +13,14 @@ const Infanzia = () => {
         </div>
         <div className="infanzia__section1__container-text">
           <h1 className="infanzia__section1__title">Infanzia 0-3 anni</h1>
-          <h2 className="infanzia__section1__subtitle-green">Il processo</h2>
+          <h2 className="infanzia__section1__subtitle-green"><span
+            className="quote-green">&quot;</span>Il
+            processo</h2>
           <h2 className="infanzia__section1__subtitle-serif">di crescita</h2>
           <h2 className="infanzia__section1__subtitle-green">del bambino</h2>
           <h2 className="infanzia__section1__subtitle-serif">e per noi </h2>
-          <h2 className="infanzia__section1__subtitle-serif">al centro di tutto</h2>
+          <h2 className="infanzia__section1__subtitle-serif">al centro di tutto.<span
+            className="quote-green">&quot;</span></h2>
           <p className="infanzia__section1__p">Pianeta dudù è un luogo attentamente progettato per favorire
             lo sviluppo delle autonomie del bambino.
             Grazie ai numerosi approfondimenti, la metodologia applicata è
@@ -63,11 +66,14 @@ const Infanzia = () => {
       </section>
       <section className="infanzia__section3">
         <div className="infanzia__section3__container-text">
-          <h2 className="infanzia__section3__subtitle-green">Il cibo e ' una vera scoperta,</h2>
+          <h2 className="infanzia__section3__subtitle-green"><span
+            className="quote-green">&quot;</span>Il
+            cibo e ' una vera scoperta,</h2>
           <h2 className="infanzia__section3__subtitle-serif">e se è vero che siamo quello</h2>
           <h2 className="infanzia__section3__subtitle-green">che mangiamo,</h2>
           <h2 className="infanzia__section3__subtitle-serif">è importante </h2>
-          <h2 className="infanzia__section3__subtitle-serif">mangiare solo cose genuine</h2>
+          <h2 className="infanzia__section3__subtitle-serif">mangiare solo cose genuine.<span
+            className="quote-green">&quot;</span></h2>
           <p className="infanzia__section3__p">L’alimentazione proposta da Pianeta Dudù è attentamente supervisionata da un’esperta
             nutrizionista infantile, la dott.ssa Arianna Mazzoni.
             È stato individuato per i nostri bambini un piano alimentare sano e variegato, questo va
@@ -85,7 +91,7 @@ const Infanzia = () => {
         <h2 className="infanzia__section4__title">Orari e servizi</h2>
         <h3 className="infanzia__section4__subtitle-serif">Dal lunedì al venerdì</h3>
         <h3 className="infanzia__section4__subtitle-serif">offriamo un servizio comprensivo di pranzo e nanna.</h3>
-        <h4 className="infanzia__section4__subtitle-green">Si puo ' scegliere tra diversi orari di uscita:</h4>
+        <h4 className="infanzia__section4__subtitle-green">Si puo' scegliere tra diversi orari di uscita:</h4>
 
 
         <div className="infanzia__section4__row">

@@ -38,8 +38,12 @@
   font-style: normal;
 }
 
-.navlink {
-  text-decoration: none;
+#root {
+  height: 100vh;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 p {
@@ -61,10 +65,60 @@ strong  {
 }
 
 
-#root {
-  height: 100vh;
+.quote-green {
+  font-family: "Green Yellow", sans-serif;
+  font-size: 60px;
+  color: #CCD5AE;
 }
 
-body::-webkit-scrollbar {
-  display: none;
+.quote-pink {
+  font-family: "Green Yellow", sans-serif;
+  font-size: 60px;
+  color: #FFDAC6;
 }
+
+.quote-white {
+  font-family: "Green Yellow", sans-serif;
+  font-size: 60px;
+  color: #fff1e6;
+}
+/* Per schermi da 1024px a 768px */
+@media (max-width: 1024px) {
+  .quote-green, .quote-pink, .quote-white {
+    font-size: 50px;
+  }
+}
+
+/* Per schermi da 768px a 600px */
+@media (max-width: 768px) {
+  .quote-green, .quote-pink, .quote-white {
+    font-size: 45px;
+  }
+}
+
+/* Per schermi da 600px a 480px */
+@media (max-width: 600px) {
+  .quote-green, .quote-pink, .quote-white {
+    font-size: 40px;
+  }
+}
+
+/* Per schermi da 480px a 360px */
+@media (max-width: 480px) {
+  .quote-green, .quote-pink, .quote-white {
+    font-size: 35px;
+  }
+}
+
+/* Per schermi inferiori a 360px */
+@media (max-width: 360px) {
+  .quote-green, .quote-pink, .quote-white {
+    font-size: 30px;
+  }
+}
+
+
+.navlink {
+  text-decoration: none;
+}
+
