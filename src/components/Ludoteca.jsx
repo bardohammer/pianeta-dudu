@@ -12,7 +12,7 @@ const Ludoteca = () => {
           <h1 className="ludoteca__section1__title">ludoteca 0-10 anni</h1>
           <h2 className="ludoteca__section1__subtitle-green"><span
             className="quote-white__servizi">&quot;</span>La
-            felicita'</h2>
+            felicit<span className="ludoteca__section1__subtitle-green--edit">à</span></h2>
           <h2 className="ludoteca__section1__subtitle-serif">della condivisione rende</h2>
           <h2 className="ludoteca__section1__subtitle-serif">l'atmosfera del gioco</h2>
           <h2 className="ludoteca__section1__subtitle-green">semplicemente </h2>
@@ -70,25 +70,30 @@ const Ludoteca = () => {
 
         <div className="ludoteca__section3__row">
           <div className="ludoteca__section3__circle--double">
-            <h3 className="ludoteca__section3__subtitle">Lunedi e <br/>mercoledi:</h3>
+            <h3 className="ludoteca__section3__subtitle">Luned<span
+              className="ludoteca__section3__subtitle--edit">ì</span> e <br/>mercoled<span
+              className="ludoteca__section3__subtitle--edit">ì</span>:</h3>
             <p className="ludoteca__section3__subp">
               Laboratorio con la presenza di un genitore per bambini 0-18 mesi dalle 16.30 alle 18.30
             </p>
           </div>
           <div className="ludoteca__section3__circle">
-            <h3 className="ludoteca__section3__subtitle">Martedi:</h3>
+            <h3 className="ludoteca__section3__subtitle">Marted<span
+              className="ludoteca__section3__subtitle--edit">ì</span>:</h3>
             <p className="ludoteca__section3__subp">
-              Laboratorio strutturato bambini 2-4 anni dalle 16.30 alle 18.30
+              Laboratorio strutturato bambini <br/>2-4 anni dalle 16.30 alle 18.30
             </p>
           </div>
           <div className="ludoteca__section3__circle">
-            <h3 className="ludoteca__section3__subtitle">Giovedi:</h3>
+            <h3 className="ludoteca__section3__subtitle">Gioved<span
+              className="ludoteca__section3__subtitle--edit">ì</span>:</h3>
             <p className="ludoteca__section3__subp">
               Laboratorio strutturato per bambini 5-10 anni dalle 16.30 alle 18.30
             </p>
           </div>
           <div className="ludoteca__section3__circle">
-            <h3 className="ludoteca__section3__subtitle">Venerdi:</h3>
+            <h3 className="ludoteca__section3__subtitle">Venerd<span
+              className="ludoteca__section3__subtitle--edit">ì</span>:</h3>
             <p className="ludoteca__section3__subp">
               Gioco libero bambini 2-4 anni dalle 16.30 alle 18.30
             </p>

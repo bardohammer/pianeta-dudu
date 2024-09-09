@@ -45,7 +45,7 @@ const HeaderMenu = () => {
                 className={({ isActive }) => isActive ? "header__menu-link header__menu-link--active" : "header__menu-link"}
                 onClick={handleMenuClick}
               >
-                Pianeta Dudu
+                Pianeta Dudu'
               </NavLink>
             </li>
             <li className="header__menu-item">
@@ -98,7 +98,7 @@ const HeaderMenu = () => {
                 className={({ isActive }) => isActive ? "header__menu-link header__menu-link--active" : "header__menu-link"}
                 onClick={handleMenuClick}
               >
-                Pianeta Dudu
+                Pianeta Dudu'
               </NavLink>
             </li>
             <li className="header__menu-item">

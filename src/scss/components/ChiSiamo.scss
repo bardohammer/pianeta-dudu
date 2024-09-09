@@ -28,6 +28,10 @@
       font-size: clamp(24px, 6vw, 52px); // Font dinamico
       line-height: 1;
     }
+
+    &__subtitle-green--edit {
+      font-family: "Green Yellow - copia", sans-serif;
+    }
   }
 
   &__section2 {
@@ -219,10 +223,10 @@
     &__section1 {
       padding: 0 30px 40px 30px;
       &__subtitle-green {
-        font-size: clamp(18px, 4vw, 20px); // Font dinamico
+        font-size: clamp(14px, 4vw, 20px); // Font dinamico
       }
       &__subtitle-serif {
-        font-size: clamp(16px, 4vw, 21px); // Font dinamico
+        font-size: clamp(14px, 4vw, 21px); // Font dinamico
       }
     }
 

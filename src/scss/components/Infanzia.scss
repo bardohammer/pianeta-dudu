@@ -152,6 +152,10 @@
       line-height: 1;
     }
 
+    &__subtitle-green--edit {
+      font-family: "Green Yellow - copia", sans-serif;
+    }
+
     &__p {
       margin-top: 30px;
       margin-bottom: 30px;
@@ -436,8 +440,8 @@
       }
 
       &__subtitle-serif {
-        font-size: 31px;
-        margin-top: -12px;
+        font-size: 32px;
+        margin-top: -10px;
       }
 
       &__p {
@@ -698,7 +702,7 @@
       }
       &__subtitle-serif {
         font-size: 28px;
-        margin-top: 1px;
+        margin-top: -7px;
       }
 
 

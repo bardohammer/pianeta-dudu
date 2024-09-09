@@ -7,7 +7,7 @@ const ChiSiamo = () => {
       <h1 className="chi-siamo__title">Chi siamo</h1>
       <section className="chi-siamo__section1">
         <h2 className="chi-siamo__section1__subtitle-green"><span
-          className="quote-green">&quot;</span>e'
+          className="quote-green">&quot;</span><span className="chi-siamo__section1__subtitle-green--edit">è </span>
           soltanto giocando che</h2>
         <h2 className="chi-siamo__section1__subtitle-serif">il bambino esprime il suo vero sè,</h2>
         <h2 className="chi-siamo__section1__subtitle-green">noi adulti siamo privilegiati</h2>

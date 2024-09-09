@@ -68,7 +68,7 @@ const Infanzia = () => {
         <div className="infanzia__section3__container-text">
           <h2 className="infanzia__section3__subtitle-green"><span
             className="quote-green__servizi">&quot;</span>Il
-            cibo e ' una vera scoperta,</h2>
+            cibo <span className="infanzia__section3__subtitle-green--edit">è</span> una vera scoperta,</h2>
           <h2 className="infanzia__section3__subtitle-serif">e se è vero che siamo quello</h2>
           <h2 className="infanzia__section3__subtitle-green">che mangiamo,</h2>
           <h2 className="infanzia__section3__subtitle-serif">è importante </h2>

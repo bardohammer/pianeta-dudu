@@ -10,7 +10,14 @@
     margin-top: 30px;
     margin-bottom: 70px;
     color: #fff1e6;
+
+
   }
+  &__title--edit {
+    font-family: "Green Yellow - copia", sans-serif;
+
+  }
+
 
   &__section1 {
     @include flex-column;
@@ -167,7 +174,7 @@
       }
 
       &__subtitle-serif {
-        font-size: clamp(18px, 5vw, 20px); // Aggiornato
+        font-size: clamp(16px, 5vw, 20px); // Aggiornato
       }
     }
 

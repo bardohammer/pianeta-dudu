@@ -5,7 +5,7 @@ import Footer from "./Footer.jsx";
 const PianetaDudu = () => {
   return (
     <section className="pianeta">
-      <h1 className="pianeta__title">Pianeta dudu'</h1>
+      <h1 className="pianeta__title">Pianeta dud<span className="pianeta__title--edit">ù</span></h1>
       <section className="pianeta__section1">
         <h2 className="pianeta__section1__subtitle-green"><span
           className="quote-pink">&quot;</span>Ogni bambino</h2>
