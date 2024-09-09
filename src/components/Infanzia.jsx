@@ -59,7 +59,7 @@ const Infanzia = () => {
             <p className="infanzia__section2__subp">
 
               L’obiettivo è quello di supportare adeguatamente le funzioni celebrali specifiche per ogni età con
-              strumenti semplici ed efficaci come la routine, il gioco e le attività ludico creative
+              strumenti semplici ed efficaci come la routine, il gioco e le attività ludico ricreative
             </p>
           </div>
         </div>
@@ -68,7 +68,7 @@ const Infanzia = () => {
         <div className="infanzia__section3__container-text">
           <h2 className="infanzia__section3__subtitle-green"><span
             className="quote-green__servizi">&quot;</span>Il
-            cibo <span className="infanzia__section3__subtitle-green--edit">è</span> una vera scoperta,</h2>
+            cibo <span className="infanzia__section3__subtitle-green--edit">èò</span> una vera scoperta,</h2>
           <h2 className="infanzia__section3__subtitle-serif">e se è vero che siamo quello</h2>
           <h2 className="infanzia__section3__subtitle-green">che mangiamo,</h2>
           <h2 className="infanzia__section3__subtitle-serif">è importante </h2>
@@ -91,7 +91,7 @@ const Infanzia = () => {
         <h2 className="infanzia__section4__title">Orari e servizi</h2>
         <h3 className="infanzia__section4__subtitle-serif">Dal lunedì al venerdì</h3>
         <h3 className="infanzia__section4__subtitle-serif">offriamo un servizio comprensivo di pranzo e nanna.</h3>
-        <h4 className="infanzia__section4__subtitle-green">Si puo' scegliere tra diversi orari di uscita:</h4>
+        <h4 className="infanzia__section4__subtitle-green">Si pu<span className="infanzia__section4__subtitle-green--edit">ò</span> scegliere tra diversi orari di uscita:</h4>
 
 
         <div className="infanzia__section4__row">
@@ -105,7 +105,7 @@ const Infanzia = () => {
           <div className="infanzia__section4__circle">
             <h3 className="infanzia__section4__subtitle">Seconda opzione:</h3>
             <p className="infanzia__section4__subp">
-              13/13:15
+              13:15/13:30
             </p>
             <p className="infanzia__section4__subp">(Con pranzo)</p>
           </div>

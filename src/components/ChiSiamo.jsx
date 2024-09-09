@@ -58,7 +58,7 @@ const ChiSiamo = () => {
             <h3 className="chi-siamo__section3__container__title">Dott.ssa Linda Frongillo</h3>
             <h4 className="chi-siamo__section3__container__subtitle">Psicologa e Psicoterapeuta</h4>
             <p className="chi-siamo__section3__container__p">
-              Laureata a pieni voti in <strong></strong> Psicologia clinica e della salute all’Università Vita Salute San
+              Laureata a pieni voti in <strong>Psicologia clinica e della salute</strong> all’Università Vita Salute San
               Raffaele di Milano.<br/><br/>
               Successivamente, ho conseguito la specializzazione in <strong>Psicoterapia psicoanalitica</strong>  presso
               l’istituto di psicoterapia del bambino e dell’adolescente di Milano, PSIBA.
