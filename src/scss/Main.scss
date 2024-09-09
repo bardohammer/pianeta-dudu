@@ -82,8 +82,30 @@ strong  {
   font-size: 60px;
   color: #fff1e6;
 }
+
+.quote-green__servizi {
+  font-family: "Green Yellow", sans-serif;
+  font-size: 60px;
+  color: #CCD5AE;
+}
+
+.quote-pink__servizi {
+  font-family: "Green Yellow", sans-serif;
+  font-size: 60px;
+  color: #FFDAC6;
+}
+
+.quote-white__servizi {
+  font-family: "Green Yellow", sans-serif;
+  font-size: 60px;
+  color: #fff1e6;
+}
+
 /* Per schermi da 1024px a 768px */
 @media (max-width: 1024px) {
+  .quote-green__servizi, .quote-pink__servizi, .quote-white__servizi {
+    font-size: 50px;
+  }
   .quote-green, .quote-pink, .quote-white {
     font-size: 50px;
   }
@@ -91,29 +113,41 @@ strong  {
 
 /* Per schermi da 768px a 600px */
 @media (max-width: 768px) {
-  .quote-green, .quote-pink, .quote-white {
+  .quote-green__servizi, .quote-pink__servizi, .quote-white__servizi {
     font-size: 45px;
+  }
+  .quote-green, .quote-pink, .quote-white {
+    font-size: 33px;
   }
 }
 
 /* Per schermi da 600px a 480px */
 @media (max-width: 600px) {
+  .quote-green__servizi, .quote-pink__servizi, .quote-white__servizi {
+    font-size: 50px;
+  }
   .quote-green, .quote-pink, .quote-white {
-    font-size: 40px;
+    font-size: 28px;
   }
 }
 
 /* Per schermi da 480px a 360px */
 @media (max-width: 480px) {
+  .quote-green__servizi, .quote-pink__servizi, .quote-white__servizi {
+    font-size: 40px;
+  }
   .quote-green, .quote-pink, .quote-white {
-    font-size: 35px;
+    font-size: 25px;
   }
 }
 
 /* Per schermi inferiori a 360px */
 @media (max-width: 360px) {
+  .quote-green__servizi, .quote-pink__servizi, .quote-white__servizi {
+    font-size: 35px;
+  }
   .quote-green, .quote-pink, .quote-white {
-    font-size: 30px;
+    font-size: 24px;
   }
 }
 

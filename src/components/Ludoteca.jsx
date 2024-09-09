@@ -11,13 +11,13 @@ const Ludoteca = () => {
         <div className="ludoteca__section1__container-text">
           <h1 className="ludoteca__section1__title">ludoteca 0-10 anni</h1>
           <h2 className="ludoteca__section1__subtitle-green"><span
-            className="quote-white">&quot;</span>La
+            className="quote-white__servizi">&quot;</span>La
             felicita'</h2>
           <h2 className="ludoteca__section1__subtitle-serif">della condivisione rende</h2>
           <h2 className="ludoteca__section1__subtitle-serif">l'atmosfera del gioco</h2>
           <h2 className="ludoteca__section1__subtitle-green">semplicemente </h2>
           <h2 className="ludoteca__section1__subtitle-green">magica.<span
-            className="quote-white">&quot;</span></h2>
+            className="quote-white__servizi">&quot;</span></h2>
           <p className="ludoteca__section1__p">Pianeta dudù ha anche il servizio ludoteca, uno spazio a misura di bambino ideato per
             facilitare la socializzazione e il gioco tra i piccoli ospiti.
             I laboratori pomeridiani della nostra ludoteca sono attentamente divisi in base alla fascia
