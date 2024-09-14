@@ -1,5 +1,4 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faClock } from "@fortawesome/free-regular-svg-icons/faClock";
 import { faPhone } from "@fortawesome/free-solid-svg-icons/faPhone";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons/faEnvelope";
 import '../scss/components/Contatti.scss';
@@ -17,24 +16,32 @@ const Contatti = () => {
                                                                icon={ faEnvelope }/>Email
             </h3>
           </div>
-          <p className="contact__p">pianetadudu2024@gmail.com</p>
+          <p className="contact__p">
+            <a href="mailto:nicchecala@gmail.com">pianetadudu2024@gmail.com</a>
+
+          </p>
         </div>
         <div className="contact__box">
-          <div className="contact__title--container">
+        <div className="contact__title--container">
             <h3 className="contact__title tel"><FontAwesomeIcon className="contact__icon" size="xs" icon={ faPhone }/>Telefono
             </h3>
           </div>
           <p className="contact__p">
-            +39 393 0209 000
+            <a href="tel:+39 393 0209 000">
+              +39 393 0209 000
+            </a>
           </p>
         </div>
         <div className="contact__box">
           <div className="contact__title--container">
-            <h3 className="contact__title lug"><FontAwesomeIcon className="contact__icon" size="xs" icon={faLocationDot}/>Location
+            <h3 className="contact__title lug"><FontAwesomeIcon className="contact__icon" size="xs"
+                                                                icon={ faLocationDot }/>Location
             </h3>
           </div>
           <p className="contact__p">
-            Via Marrucci N°20, Cecina, LI
+            <a href="https://www.google.com/maps/place/Via+Marrucci+N%C2%B020,+Cecina,+LI" target="_blank" rel="noopener noreferrer">
+              Via Marrucci N°20, Cecina, LI
+            </a>
           </p>
         </div>
       </div>
