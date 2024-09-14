@@ -85,8 +85,26 @@
   &__p {
     font-family: "Champagne bold", sans-serif;
     padding-top: 20px;
-    width: 240px;
+    width: 270px;
     @include flex-row;
+  }
+
+  &__a {
+    text-decoration: none;
+    color: #41521F;
+    background-color: #fff1e6;
+    border: 2px solid #90B28A;
+    padding: 9px 18px;
+    border-radius: 19px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Aggiunto anche il colore per la transizione */
+
+    &:hover {
+      border: 2px solid transparent;
+
+      color: #fff1e6;
+      background-color: #90B28A;
+
+    }
   }
 
   &__column2 {

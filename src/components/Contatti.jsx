@@ -17,7 +17,7 @@ const Contatti = () => {
             </h3>
           </div>
           <p className="contact__p">
-            <a href="mailto:nicchecala@gmail.com">pianetadudu2024@gmail.com</a>
+            <a className="contact__a" href="mailto:nicchecala@gmail.com">pianetadudu2024@gmail.com</a>
 
           </p>
         </div>
@@ -27,7 +27,7 @@ const Contatti = () => {
             </h3>
           </div>
           <p className="contact__p">
-            <a href="tel:+39 393 0209 000">
+            <a className="contact__a" href="tel:+39 393 0209 000">
               +39 393 0209 000
             </a>
           </p>
@@ -39,7 +39,7 @@ const Contatti = () => {
             </h3>
           </div>
           <p className="contact__p">
-            <a href="https://www.google.com/maps/place/Via+Marrucci+N%C2%B020,+Cecina,+LI" target="_blank" rel="noopener noreferrer">
+            <a className="contact__a" href="https://www.google.com/maps/place/Via+Marrucci+N%C2%B020,+Cecina,+LI" target="_blank" rel="noopener noreferrer">
               Via Marrucci N°20, Cecina, LI
             </a>
           </p>
