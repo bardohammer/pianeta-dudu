@@ -22,8 +22,7 @@ const Home = () => {
       <h1 className="home__font-one">Benvenuti</h1>
       <h2 className="home__font-two"><br/>nel Pianeta Dudù... <br/>Che servizio <br/>stai cercando?</h2>
       <div className="home__container-foto">
-        <img className="home__background" src={ copertina } alt="Foto bambini di sfondo"/>
-
+        <img className="home__background" src={ copertina } alt="immagine di un bambino che osserva le stelle."/>
       </div>
       <section className="home__row-card">
         <Card onClick={handleClickInfanzia} title="Infanzia 0-3 anni" className="home__card">

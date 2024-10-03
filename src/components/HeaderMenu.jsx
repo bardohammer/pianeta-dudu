@@ -21,7 +21,7 @@ const HeaderMenu = () => {
       <nav className="header__nav">
         <div className="header__logo">
           <NavLink to="/">
-            <img src={logo} alt="Logo" className="header__logo-img" />
+            <img src={logo} alt="Logo Pianeta Dudù" className="header__logo-img" />
           </NavLink>
         </div>
         <div className="header__hamburger">
@@ -45,7 +45,7 @@ const HeaderMenu = () => {
                 className={({ isActive }) => isActive ? "header__menu-link header__menu-link--active" : "header__menu-link"}
                 onClick={handleMenuClick}
               >
-                Pianeta Dudu'
+                Pianeta Dudu&apos;
               </NavLink>
             </li>
             <li className="header__menu-item">
@@ -98,7 +98,7 @@ const HeaderMenu = () => {
                 className={({ isActive }) => isActive ? "header__menu-link header__menu-link--active" : "header__menu-link"}
                 onClick={handleMenuClick}
               >
-                Pianeta Dudu'
+                Pianeta Dudu&apos;
               </NavLink>
             </li>
             <li className="header__menu-item">

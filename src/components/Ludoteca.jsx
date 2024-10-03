@@ -14,7 +14,7 @@ const Ludoteca = () => {
             className="quote-white__servizi">&quot;</span>La
             felicit<span className="ludoteca__section1__subtitle-green--edit">à</span></h2>
           <h2 className="ludoteca__section1__subtitle-serif">della condivisione rende</h2>
-          <h2 className="ludoteca__section1__subtitle-serif">l'atmosfera del gioco</h2>
+          <h2 className="ludoteca__section1__subtitle-serif">l&apos;atmosfera del gioco</h2>
           <h2 className="ludoteca__section1__subtitle-green">semplicemente </h2>
           <h2 className="ludoteca__section1__subtitle-green">magica.<span
             className="quote-white__servizi">&quot;</span></h2>
@@ -29,7 +29,7 @@ const Ludoteca = () => {
           </NavLink>
         </div>
         <div className="ludoteca__section1__container-img">
-          <img className="ludoteca__section1__img" src={ condivisione } alt="Immagine di una famiglia di conigli"/>
+          <img className="ludoteca__section1__img" src={ condivisione } alt="Immagine di una mamma coniglio che condivide il cibo con i piccoli."/>
         </div>
       </section>
 

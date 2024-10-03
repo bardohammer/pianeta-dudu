@@ -82,7 +82,7 @@ const Infanzia = () => {
           </p>
         </div>
         <div className="infanzia__section3__container-img">
-          <img className="infanzia__section3__img" src={ coniglio } alt="Immagine di una miglia di conigli"/>
+          <img className="infanzia__section3__img" src={ coniglio } alt="Immagine che rappresenta una famiglia di conigli"/>
         </div>
 
       </section>
