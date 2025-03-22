@@ -74,19 +74,21 @@ const ChiSiamo = () => {
           </div>
 
           <div className="chi-siamo__section3__container__card">
-            <h3 className="chi-siamo__section3__container__title">Valentina Niccolini</h3>
+            <h3 className="chi-siamo__section3__container__title">Sara Falchi</h3>
             <h4 className="chi-siamo__section3__container__subtitle">Educatrice professionale</h4>
             <p className="chi-siamo__section3__container__p">
-              Laureata a pieni voti in <strong>Scienze dell’educazione e della formazione</strong>  per la prima
-              infanzia all’Università degli studi di Firenze.<br/><br/>
-              Grazie ai miei studi ed alle numerose esperienze nel campo educativo, ho potuto
-              maturare conoscenze e capacità di collaborazione in team, mirate nel settore della
-              <strong> primissima infanzia</strong>, la mia più grande passione.
-              Credo che l’aspetto più importante per lavorare in armonia sia quello di stabilire una
-              buona relazione con le famiglie.<br/><br/>
-              I miei interessi nel settore dell’infanzia sono molteplici, tra questi ho
-              approfondito i processi di isolamento del bambino con spettro autistico e in particolare su
-              come la musica possa rappresentare un valido strumento di comunicazione.
+              Laureata a pieni voti in <strong>scienze dell’educazione sociale</strong> all’università di Firenze,
+              inoltre ho approfondito i miei studi sulla <strong>disabilità intellettiva</strong> ed in particolare sul
+              disturbo dello spettro dell’autismo,
+              maturando delle competenze specifiche anche in questo ambito.<br/><br/>
+              Grazie alle numerose esperienze in ambito infantile, ho potuto osservare ciò che mi ha da sempre
+              incuriosita:
+              il <strong>funzionamento socio-emotivo del bambino nella sua complessità</strong>.<br/><br/>
+              Mi piace osservare i bambini e le loro <strong>fasi evolutive</strong>,
+              costruire con loro dei percorsi adeguatamente scelti per supportare le loro abilità ma anche le
+              difficoltà.<br/><br/>
+              Infatti, per questo ho scelto con cura e passione i miei indirizzi di studio e specializzazione,
+              continuando tutt’oggi la formazione richiesta e lavorando a stretto contatto con il mio team.
             </p>
           </div>
         </div>
