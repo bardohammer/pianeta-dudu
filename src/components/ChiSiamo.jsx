@@ -21,7 +21,7 @@ const ChiSiamo = () => {
           quello di <strong>Linda</strong>.<br/><br/>
           Un'educatrice ed una psicoterapeuta, due attente osservatrici che, con grande spirito di squadra, hanno dato
           forma a quella che fino a poco tempo fa era soltanto una fantasia.<br/><br/>
-          Il personale è composto da <strong>due educatrici</strong>, Benedetta e Valentina, che si prenderanno cura dei
+          Il personale è composto da <strong>due educatrici</strong>, Benedetta e Sara, che si prenderanno cura dei
           bambini per il
           tempo che trascorreranno nella struttura, e <strong>un'assistente all'infanzia </strong>
           che fornirà il giusto supporto alla gestione quotidiana dei bambini presenti nella
